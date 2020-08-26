@@ -7,7 +7,6 @@ class Groups:
         self.count=number_in_each
         self.member=random.shuffle(member)
         
-        
     def partition(self):
         for i in range(0, len(member), count):
             yield member[i:i + count]
